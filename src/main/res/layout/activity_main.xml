@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textSize="80px"
+        android:text="Version Controlling" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Re Enter Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="#8642DC5B"
+        android:onClick="submit"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="#9CEF1313"
+        android:onClick="cancel"
+        android:text="Cancel" />
+
+
+</LinearLayout>
